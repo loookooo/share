@@ -1,0 +1,72 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/trade/index",
+			"style": {
+				"navigationBarTitleText": "交易"
+			}
+		},
+		{
+			"path": "pages/hold/index",
+			"style": {
+				"navigationBarTitleText": "持仓|委托"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "测试"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "页面",
+		"navigationBarBackgroundColor": "#2B2A3A",
+		"backgroundColor": "#2B2A3A"
+	},
+	"tabBar": {
+	    "color": "#7a7e83",
+		"borderStyle":"white",
+	    "selectedColor": "#0faeff",
+	    "backgroundColor": "#2B2A3A",
+	    "list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/tab/home.png",
+				"selectedIconPath": "static/tab/home_hover.png"
+			},
+			{
+				"pagePath": "pages/trade/index",
+				"text": "交易",
+				"iconPath": "static/tab/trade.png",
+				"selectedIconPath": "static/tab/trade_hover.png"
+			},
+			{
+				"pagePath": "pages/hold/index",
+				"text": "持仓",
+				"iconPath": "static/tab/hold.png",
+				"selectedIconPath": "static/tab/hold_hover.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mine_hover.png"
+			}
+		]
+	}
+}
